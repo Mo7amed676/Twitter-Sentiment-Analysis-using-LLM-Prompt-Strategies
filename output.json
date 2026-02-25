@@ -1,0 +1,602 @@
+[
+  {
+    "text": "الخدمة كانت ممتازة جدًا والموظفين كانوا محترمين، بس السعر كان أعلى من المتوقع شوية.",
+    "sentiment": "Positive",
+    "reasoning": "The text starts with strong positive descriptors like \"ممتازة جدًا\" (very excellent) for the service and \"محترمين\" (respectful) for the staff. Although there's a slight negative point about the price being \"أعلى من المتوقع شوية\" (a bit higher than expected), the initial strong positive statements outweigh this minor drawback, leading to an overall positive sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "الأكل طعمه وحش جدًا ووصل بارد كمان، والتجربة كلها كانت سيئة.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses strong negative words and phrases such as \"وحش جدًا\" (very bad) to describe the taste of the food, mentions it \"وصل بارد\" (arrived cold), and concludes with \"التجربة كلها كانت سيئة\" (the whole experience was bad), leaving no room for positive interpretation.",
+    "reliability": 1.0
+  },
+  {
+    "text": "المكان شكله حلو ونضيف، لكن التنظيم ضعيف والخدمة بطيئة.",
+    "sentiment": "Negative",
+    "reasoning": "While the text acknowledges positive aspects like the place being \"حلو ونضيف\" (nice and clean), it immediately introduces significant negative points with \"لكن\" (but). The operational issues, \"التنظيم ضعيف\" (weak organization) and \"الخدمة بطيئة\" (slow service), are critical to the overall experience and carry more weight, making the sentiment lean towards negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "The product quality is amazing and I really loved using it every day.",
+    "sentiment": "Positive",
+    "reasoning": "The text contains strong positive indicators such as \"amazing\" to describe product quality and \"really loved using it\" which expresses high satisfaction and enjoyment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "Honestly, it was a terrible experience and I wouldn’t recommend it to anyone.",
+    "sentiment": "Negative",
+    "reasoning": "The text explicitly states \"a terrible experience\" and follows up with a strong negative recommendation \"wouldn’t recommend it to anyone,\" clearly indicating a highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "التطبيق سهل الاستخدام جدًا لكن بيعلق أحيانًا وده بيضايقني.",
+    "sentiment": "Negative",
+    "reasoning": "The text starts with a positive note, \"سهل الاستخدام جدًا\" (very easy to use), but the conjunction \"لكن\" (but) introduces a critical flaw: \"بيعلق أحيانًا\" (it crashes sometimes), which \"بيضايقني\" (bothers me). The explicit statement of being bothered by the crashes indicates that this negative aspect significantly impacts the user's overall experience, making the sentiment negative.",
+    "reliability": 0.9
+  },
+  {
+    "text": "I liked the design, but the performance is extremely slow.",
+    "sentiment": "Negative",
+    "reasoning": "While there's a positive mention of liking the design, the conjunction \"but\" introduces a critical negative point: \"the performance is extremely slow.\" The adverb \"extremely\" intensifies the negative impact of the slow performance, outweighing the positive aspect of the design.",
+    "reliability": 0.9
+  },
+  {
+    "text": "السعر مناسب مقابل الجودة اللي حصلت عليها بصراحة.",
+    "sentiment": "Positive",
+    "reasoning": "The text directly states \"السعر مناسب\" (the price is suitable) in relation to \"الجودة اللي حصلت عليها\" (the quality received), indicating satisfaction with the value for money, which is a positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "الموظف كان أسلوبه مش لطيف خالص وخلى التجربة كلها سلبية.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses strong negative language to describe the employee's manner, \"أسلوبه مش لطيف خالص\" (his manner was not nice at all), and explicitly states that this made \"التجربة كلها سلبية\" (the whole experience negative), leaving no ambiguity.",
+    "reliability": 1.0
+  },
+  {
+    "text": "الفيلم كان ممتع في البداية لكن النهاية كانت مخيبة للآمال.",
+    "sentiment": "Negative",
+    "reasoning": "The text presents a mixed sentiment, starting with \"ممتع في البداية\" (enjoyable at the beginning). However, the conjunction \"لكن\" (but) introduces a significant negative point: \"النهاية كانت مخيبة للآمال\" (the ending was disappointing). For a film, a disappointing ending often overshadows initial enjoyment and leaves a lasting negative impression, thus the overall sentiment is negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "very good service and fast delivery, I’m really satisfied.",
+    "sentiment": "Positive",
+    "reasoning": "The text contains multiple strong positive indicators: \"very good service,\" \"fast delivery,\" and the explicit statement \"I’m really satisfied,\" all contributing to a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "الخدمة مش سيئة قوي، بس كنت متوقع مستوى أفضل من كده.",
+    "sentiment": "Negative",
+    "reasoning": "The phrase \"مش سيئة قوي\" (not very bad) suggests a neutral or slightly positive baseline. However, the conjunction \"بس\" (but) introduces a clear negative sentiment: \"كنت متوقع مستوى أفضل من كده\" (I expected a better level than that). This unfulfilled expectation and disappointment make the overall sentiment negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "المنتج باين عليه خامة محترمة واشتغل معايا بدون مشاكل.",
+    "sentiment": "Positive",
+    "reasoning": "The text describes the product positively, noting its \"خامة محترمة\" (decent material) and stating that it \"اشتغل معايا بدون مشاكل\" (worked without problems), indicating good quality and functionality.",
+    "reliability": 1.0
+  },
+  {
+    "text": "I hate how the app crashes every single time I open it.",
+    "sentiment": "Negative",
+    "reasoning": "The text expresses strong negative emotion with \"I hate\" and describes a critical and frequent malfunction: \"the app crashes every single time I open it,\" clearly indicating a highly negative user experience.",
+    "reliability": 1.0
+  },
+  {
+    "text": "المكان هادي وجميل جدًا وقعدتي فيه كانت مريحة نفسيًا.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses multiple strong positive adjectives: \"هادي\" (quiet), \"جميل جدًا\" (very beautiful), and \"مريحة نفسيًا\" (psychologically comfortable) to describe the place and the experience, indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "الأكل كان طعمه عادي جدًا، لا هو حلو قوي ولا وحش.",
+    "sentiment": "Neutral",
+    "reasoning": "The text explicitly states that the food was \"عادي جدًا\" (very ordinary) and clarifies \"لا هو حلو قوي ولا وحش\" (neither very good nor bad), which are direct indicators of a neutral sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "The customer support team was helpful but a bit slow in responding.",
+    "sentiment": "Neutral",
+    "reasoning": "The text presents a mixed sentiment. \"Helpful\" is a positive attribute for customer support, but \"a bit slow in responding\" is a negative one. The phrase \"a bit\" mitigates the negativity, balancing the positive \"helpful\" aspect, resulting in a neutral overall assessment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "التجربة كانت سيئة جدًا من أول ما دخلت لحد ما مشيت.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses the strong negative phrase \"سيئة جدًا\" (very bad) to describe the entire experience, from beginning to end, leaving no ambiguity about the negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "السعر غالي مقارنة بالخدمة اللي بتتقدم.",
+    "sentiment": "Negative",
+    "reasoning": "The text states \"السعر غالي\" (the price is expensive) and implies that this is disproportionate \"مقارنة بالخدمة اللي بتتقدم\" (compared to the service provided), indicating dissatisfaction with the value, which is a negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "absolutely fantastic performance and outstanding quality.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive adjectives and adverbs like \"absolutely fantastic\" and \"outstanding\" to describe both performance and quality, indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "el service kan 7elw bas el ta2kher kan mdaye2 shwaya.",
+    "sentiment": "Negative",
+    "reasoning": "The text starts with a positive \"el service kan 7elw\" (the service was good), but the conjunction \"bas\" (but) introduces a negative point: \"el ta2kher kan mdaye2 shwaya\" (the delay was a bit annoying). The explicit mention of annoyance, even if \"a bit,\" indicates a negative impact on the overall experience, making the sentiment negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "el makan kan zefet w el nas elly sh8ala m3andhomsh zo2.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses strong negative colloquial terms: \"zefet\" (terrible) to describe the place and \"el nas elly sh8ala m3andhomsh zo2\" (the people working there have no manners) for the staff, clearly conveying a highly negative experience.",
+    "reliability": 1.0
+  },
+  {
+    "text": "7abeb el product da gedan w momken ashtreh tani.",
+    "sentiment": "Positive",
+    "reasoning": "The text expresses strong affection for the product with \"7abeb el product da gedan\" (I love this product very much) and indicates intent for repeat purchase \"momken ashtreh tani\" (might buy it again), which are clear indicators of a positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "mesh best 7aga bas yemshi el 7al.",
+    "sentiment": "Neutral",
+    "reasoning": "The phrase \"mesh best 7aga\" (not the best thing) indicates a lack of strong positive sentiment. However, it's immediately followed by \"bas yemshi el 7al\" (but it gets the job done / it's acceptable), which suggests it fulfills its basic purpose without being remarkable. This balance of mild disappointment and basic functionality results in a neutral sentiment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "very disappointing experience overall.",
+    "sentiment": "Negative",
+    "reasoning": "The text explicitly uses the strong negative phrase \"very disappointing experience overall,\" leaving no doubt about the negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "بصراحة كنت متحمس جدًا لكن المنتج خيب أملي.",
+    "sentiment": "Negative",
+    "reasoning": "The text starts with an initial positive state of \"متحمس جدًا\" (very excited), but the conjunction \"لكن\" (but) introduces a strong negative outcome: \"المنتج خيب أملي\" (the product disappointed me). The disappointment outweighs the initial excitement, leading to an overall negative sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "exceeded my expectations in every possible way.",
+    "sentiment": "Positive",
+    "reasoning": "The phrase \"exceeded my expectations in every possible way\" is a clear and strong indicator of a highly positive and satisfying experience.",
+    "reliability": 1.0
+  },
+  {
+    "text": "مش عاجبني الأداء خالص رغم إن الفكرة حلوة.",
+    "sentiment": "Negative",
+    "reasoning": "While acknowledging a positive aspect (\"الفكرة حلوة\" - the idea is good), the text strongly negates the core functionality with \"مش عاجبني الأداء خالص\" (I don't like the performance at all). The \"خالص\" (at all) intensifies the negative feeling towards the performance, which is often more crucial than the underlying idea, making the overall sentiment negative.",
+    "reliability": 0.9
+  },
+  {
+    "text": "الجودة ممتازة والتغليف كمان كان شيك جدًا.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive descriptors: \"الجودة ممتازة\" (excellent quality) and \"التغليف كمان كان شيك جدًا\" (the packaging was also very elegant), indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "worst experience ever and I regret trying it.",
+    "sentiment": "Negative",
+    "reasoning": "The text contains two very strong negative phrases: \"worst experience ever\" and \"I regret trying it,\" leaving no doubt about the highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "الفيلم كان طويل وممل جدًا ومقدرتش أكمله للآخر.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses strong negative adjectives \"طويل وممل جدًا\" (very long and boring) and indicates a failure to complete the film \"مقدرتش أكمله للآخر\" (couldn't finish it to the end), which are clear indicators of a negative experience.",
+    "reliability": 1.0
+  },
+  {
+    "text": "المطعم نضيف جدًا والخدمة سريعة والأكل طعمه رائع.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses multiple strong positive descriptors: \"نضيف جدًا\" (very clean), \"الخدمة سريعة\" (fast service), and \"الأكل طعمه رائع\" (the food tastes wonderful), all contributing to a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "السعر مناسب لكن الجودة محتاجة تتحسن شوية.",
+    "sentiment": "Negative",
+    "reasoning": "While the price is deemed \"مناسب\" (suitable), the conjunction \"لكن\" (but) introduces a critical negative point: \"الجودة محتاجة تتحسن شوية\" (the quality needs to improve a bit). The need for improvement, even if slight, indicates a current deficiency that detracts from the overall satisfaction, making the sentiment negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "I’m kind of satisfied but I expected more features.",
+    "sentiment": "Negative",
+    "reasoning": "The phrase \"I’m kind of satisfied\" suggests a lukewarm or neutral positive. However, the conjunction \"but\" introduces a clear negative aspect: \"I expected more features.\" This unfulfilled expectation and implied disappointment make the overall sentiment lean towards negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "الخدمة كويسة عمومًا بس محتاجة تنظيم أكتر.",
+    "sentiment": "Negative",
+    "reasoning": "The text starts with a generally positive assessment \"الخدمة كويسة عمومًا\" (the service is generally good). However, the conjunction \"بس\" (but) introduces a significant area for improvement: \"محتاجة تنظيم أكتر\" (it needs more organization). This identified deficiency, despite the general goodness, makes the overall sentiment lean towards negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "سيء جدًا جدًا ومش هكرر التجربة دي تاني.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses extremely strong negative repetition \"سيء جدًا جدًا\" (very very bad) and explicitly states an intention not to repeat the experience \"مش هكرر التجربة دي تاني\" (I will not repeat this experience again), indicating a highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "المنتج جميل وشكله شيك لكن الخامة ضعيفة.",
+    "sentiment": "Negative",
+    "reasoning": "While the product is praised for being \"جميل وشكله شيك\" (beautiful and elegant-looking), the conjunction \"لكن\" (but) introduces a critical flaw: \"الخامة ضعيفة\" (the material is weak). Material quality is a fundamental aspect of a product's durability and value, and its weakness outweighs the aesthetic positives, leading to a negative sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "honestly it’s not bad at all, I actually liked it.",
+    "sentiment": "Positive",
+    "reasoning": "The phrase \"not bad at all\" is a double negative that implies a positive assessment, which is then explicitly confirmed by \"I actually liked it,\" indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "تحفة فنية بكل المقاييس واستمتعت بكل لحظة فيه.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses extremely strong positive language, calling it \"تحفة فنية بكل المقاييس\" (a masterpiece by all standards) and expressing deep enjoyment with \"استمتعت بكل لحظة فيه\" (enjoyed every moment of it), indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "التطبيق بيعلق كتير وده بيخليني أفقد أعصابي.",
+    "sentiment": "Negative",
+    "reasoning": "The text describes a frequent and severe problem \"بيعلق كتير\" (crashes a lot) and explicitly states the negative emotional impact \"وده بيخليني أفقد أعصابي\" (and this makes me lose my temper), indicating a highly negative user experience.",
+    "reliability": 1.0
+  },
+  {
+    "text": "el movie kan 7elw awy bas el nihaya kanet 3ady.",
+    "sentiment": "Positive",
+    "reasoning": "The text starts with a strong positive \"el movie kan 7elw awy\" (the movie was very good). While \"bas el nihaya kanet 3ady\" (but the ending was ordinary) introduces a neutral point, the initial strong positive outweighs a merely \"ordinary\" ending for the overall movie experience, leading to a positive sentiment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "el app zefet w el akl bard.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses strong negative colloquial terms: \"zefet\" (terrible) to describe the app and \"bard\" (cold) for the food, both indicating significant dissatisfaction.",
+    "reliability": 1.0
+  },
+  {
+    "text": "3gbny el design bas el performance wa7esh.",
+    "sentiment": "Negative",
+    "reasoning": "While there's a positive mention \"3gbny el design\" (I liked the design), the conjunction \"bas\" (but) introduces a critical negative point: \"el performance wa7esh\" (the performance is bad). Performance issues typically have a stronger negative impact on user experience than aesthetic positives, making the overall sentiment negative.",
+    "reliability": 0.9
+  },
+  {
+    "text": "smooth experience and easy to navigate.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses positive descriptors \"smooth experience\" and \"easy to navigate,\" both indicating a user-friendly and pleasant interaction.",
+    "reliability": 1.0
+  },
+  {
+    "text": "nothing impressive but it does the job.",
+    "sentiment": "Neutral",
+    "reasoning": "The phrase \"nothing impressive\" indicates a lack of strong positive sentiment or excitement. However, it's balanced by \"but it does the job,\" which confirms basic functionality. This balance between uninspired performance and basic utility results in a neutral sentiment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "التجربة كانت مقبولة لكن مش مميزة.",
+    "sentiment": "Neutral",
+    "reasoning": "The text describes the experience as \"مقبولة\" (acceptable), which is a neutral term. This is immediately followed by \"لكن مش مميزة\" (but not special/distinguished), reinforcing the idea that it was neither particularly good nor bad, thus a neutral sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "أحببت المكان جدًا وحاسس إني هزوره تاني.",
+    "sentiment": "Positive",
+    "reasoning": "The text expresses strong positive emotion with \"أحببت المكان جدًا\" (I loved the place very much) and indicates a clear intention for repeat patronage \"وحاسس إني هزوره تاني\" (and I feel I will visit it again), indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "سيء للغاية من حيث الجودة والخدمة.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses the strong negative phrase \"سيء للغاية\" (extremely bad) and applies it to both \"الجودة والخدمة\" (quality and service), leaving no ambiguity about the highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "good but overpriced for what you get.",
+    "sentiment": "Negative",
+    "reasoning": "While the text acknowledges a positive aspect (\"good\"), the conjunction \"but\" introduces a significant negative point: \"overpriced for what you get.\" The issue of being overpriced often outweighs the basic goodness, indicating dissatisfaction with value, thus a negative sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "مش بطال خالص ويمشي الحال.",
+    "sentiment": "Neutral",
+    "reasoning": "The phrase \"مش بطال خالص\" (not bad at all) is a double negative that implies a mild positive or neutral assessment. This is reinforced by \"ويمشي الحال\" (and it gets the job done / it's acceptable), indicating basic functionality without being exceptional. The combination suggests a neutral sentiment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "كنت متوقع حاجة أحسن بكتير من اللي شفته.",
+    "sentiment": "Negative",
+    "reasoning": "The text expresses clear disappointment by stating \"كنت متوقع حاجة أحسن بكتير من اللي شفته\" (I expected something much better than what I saw), indicating that the actual experience fell significantly short of expectations, leading to a negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "فريق العمل كان متعاون جدًا وساعدني في كل حاجة.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive descriptors for the staff: \"متعاون جدًا\" (very cooperative) and \"ساعدني في كل حاجة\" (helped me with everything), indicating a highly positive interaction.",
+    "reliability": 1.0
+  },
+  {
+    "text": "المنتج اتحرق بعد يومين استخدام وده شيء غير مقبول.",
+    "sentiment": "Negative",
+    "reasoning": "The text describes a severe product failure \"اتحرق بعد يومين استخدام\" (burned out after two days of use) and explicitly labels it as \"شيء غير مقبول\" (an unacceptable thing), indicating a highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "very smooth and enjoyable experience.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive adjectives \"very smooth\" and \"enjoyable\" to describe the experience, indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "الخدمة سريعة لكن الموظفين مش ودودين.",
+    "sentiment": "Negative",
+    "reasoning": "While the service is praised as \"سريعة\" (fast), the conjunction \"لكن\" (but) introduces a significant negative point: \"الموظفين مش ودودين\" (the employees are not friendly). Unfriendly staff can severely impact the overall customer experience, outweighing the speed of service, leading to a negative sentiment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "honestly I’m disappointed and frustrated.",
+    "sentiment": "Negative",
+    "reasoning": "The text explicitly states two strong negative emotions: \"disappointed\" and \"frustrated,\" leaving no ambiguity about the negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "السعر غالي جدًا مقارنة بالمنافسين.",
+    "sentiment": "Negative",
+    "reasoning": "The text clearly states \"السعر غالي جدًا\" (the price is very expensive) in comparison to competitors, indicating a strong negative perception of value.",
+    "reliability": 1.0
+  },
+  {
+    "text": "رائع بكل معنى الكلمة وأنصح أي حد يجربه.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses extremely strong positive language \"رائع بكل معنى الكلمة\" (wonderful in every sense of the word) and provides a clear positive recommendation \"أنصح أي حد يجربه\" (I recommend anyone to try it), indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "عادي جدًا ومفيش حاجة مميزة فيه.",
+    "sentiment": "Neutral",
+    "reasoning": "The text explicitly states \"عادي جدًا\" (very ordinary) and \"مفيش حاجة مميزة فيه\" (nothing special about it), which are direct indicators of a neutral sentiment, lacking both positive and negative distinction.",
+    "reliability": 1.0
+  },
+  {
+    "text": "exceeded expectations honestly.",
+    "sentiment": "Positive",
+    "reasoning": "The phrase \"exceeded expectations\" is a clear and strong indicator of a highly positive and satisfying experience.",
+    "reliability": 1.0
+  },
+  {
+    "text": "el service kan momtaz w el nas bashosha.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive descriptors: \"el service kan momtaz\" (the service was excellent) and \"el nas bashosha\" (the people were cheerful/friendly), indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "el makan kan 3ady bas el akl kan 7elw.",
+    "sentiment": "Positive",
+    "reasoning": "The text presents a mixed sentiment, describing the place as \"el makan kan 3ady\" (the place was ordinary - neutral). However, the conjunction \"bas\" (but) introduces a clear positive: \"el akl kan 7elw\" (the food was good). For a dining experience, good food is often the most critical factor, outweighing an ordinary ambiance, leading to an overall positive sentiment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "mesh worth el flos elly dafa3tha.",
+    "sentiment": "Negative",
+    "reasoning": "The text explicitly states \"mesh worth el flos elly dafa3tha\" (not worth the money I paid), which is a direct expression of dissatisfaction with value and a clear negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "7elw bas ghaly awy.",
+    "sentiment": "Negative",
+    "reasoning": "While the text acknowledges a positive aspect \"7elw\" (good), the conjunction \"bas\" (but) introduces a strong negative point: \"ghaly awy\" (very expensive). The high price often outweighs the basic goodness, indicating dissatisfaction with value, thus a negative sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "experience kanet mo2lma w mdaye2a.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses two strong negative adjectives \"mo2lma\" (painful) and \"mdaye2a\" (annoying) to describe the experience, indicating a highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "I absolutely loved everything about it.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses the strong positive phrase \"I absolutely loved everything about it,\" indicating extreme satisfaction and a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "the quality is terrible and cheap.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses two strong negative adjectives \"terrible\" and \"cheap\" to describe the quality, leaving no ambiguity about the negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "المكان تحفة بس زحمة جدًا.",
+    "sentiment": "Negative",
+    "reasoning": "While the place is described with a strong positive \"تحفة\" (amazing/masterpiece), the conjunction \"بس\" (but) introduces a significant negative point: \"زحمة جدًا\" (very crowded). For many experiences, being \"very crowded\" can severely detract from enjoyment, outweighing the aesthetic appeal, leading to a negative sentiment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "الأكل لذيذ جدًا والخدمة فوق الممتاز.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive descriptors: \"لذيذ جدًا\" (very delicious) for the food and \"فوق الممتاز\" (above excellent) for the service, indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "disappointing and boring experience.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses two clear negative adjectives \"disappointing\" and \"boring\" to describe the experience, indicating a negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "مش مرتاح للتعامل ومش هتعامل معاهم تاني.",
+    "sentiment": "Negative",
+    "reasoning": "The text expresses discomfort with the interaction \"مش مرتاح للتعامل\" (not comfortable with the dealing) and explicitly states an intention not to repeat business \"مش هتعامل معاهم تاني\" (I will not deal with them again), indicating a clear negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "مبسوط جدًا ومش ندمان إني جربته.",
+    "sentiment": "Positive",
+    "reasoning": "The text expresses strong positive emotion \"مبسوط جدًا\" (very happy) and explicitly states \"مش ندمان إني جربته\" (not regretting trying it), which is a clear indicator of a positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "could be much better with some improvements.",
+    "sentiment": "Negative",
+    "reasoning": "The phrase \"could be much better\" implies that the current state is not good enough and requires \"some improvements,\" indicating a negative assessment of the current performance or quality.",
+    "reliability": 0.9
+  },
+  {
+    "text": "رهيب جدًا بجد ومستاهل كل جنيه.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive colloquial terms \"رهيب جدًا بجد\" (really awesome/terrific) and expresses excellent value for money \"مستاهل كل جنيه\" (worth every penny), indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "سيء جدًا وخدمة العملاء مش بترد.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses a strong negative descriptor \"سيء جدًا\" (very bad) and highlights a critical failure in customer support \"خدمة العملاء مش بترد\" (customer service doesn't respond), indicating a highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "el product da gamed gedan w mostahel el se3r.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive colloquial terms \"gamed gedan\" (awesome/solid) and explicitly states \"mostahel el se3r\" (worth the price), indicating a highly positive sentiment and good value.",
+    "reliability": 1.0
+  },
+  {
+    "text": "el service wa7esh w mosh mohtarma.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses two strong negative adjectives \"wa7esh\" (bad) and \"mosh mohtarma\" (disrespectful) to describe the service, indicating a highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "amazing but expensive.",
+    "sentiment": "Negative",
+    "reasoning": "While the text uses a strong positive \"amazing,\" the conjunction \"but\" introduces a significant negative point: \"expensive.\" The high cost often detracts from the overall satisfaction, indicating a negative perception of value despite the quality, thus a negative sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "نص نص مش وحش قوي.",
+    "sentiment": "Neutral",
+    "reasoning": "The phrase \"نص نص\" (half-half / so-so) is a direct indicator of neutrality. This is reinforced by \"مش وحش قوي\" (not very bad), which is a double negative implying it's not good but also not severely bad, thus a neutral sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "فوق الممتاز بجد.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses an extremely strong positive phrase \"فوق الممتاز بجد\" (really above excellent), indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "الفيلم كان ممتع لكن طويل زيادة عن اللزوم.",
+    "sentiment": "Negative",
+    "reasoning": "While the film is described as \"ممتع\" (enjoyable), the conjunction \"لكن\" (but) introduces a significant negative point: \"طويل زيادة عن اللزوم\" (too long / excessively long). Excessive length can severely detract from the overall enjoyment of a film, outweighing the initial positive, leading to a negative sentiment.",
+    "reliability": 0.8
+  },
+  {
+    "text": "الخدمة كانت كارثية من البداية للنهاية.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses the extremely strong negative adjective \"كارثية\" (catastrophic) to describe the service from beginning to end, leaving no ambiguity about the highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "المنتج جودته عالية جدًا وواضح إنه معموله باحتراف.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive descriptors: \"جودته عالية جدًا\" (very high quality) and \"واضح إنه معموله باحتراف\" (it's clear it's professionally made), indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "average experience nothing special.",
+    "sentiment": "Neutral",
+    "reasoning": "The text explicitly states \"average experience\" and \"nothing special,\" which are direct indicators of a neutral sentiment, lacking both positive and negative distinction.",
+    "reliability": 1.0
+  },
+  {
+    "text": "سيء لكن ممكن يتحسن.",
+    "sentiment": "Negative",
+    "reasoning": "The text clearly states \"سيء\" (bad), indicating a negative current state. While \"لكن ممكن يتحسن\" (but it can improve) offers a glimmer of future potential, it does not negate the current negative assessment, making the overall sentiment negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "perfect experience and I’m totally satisfied.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive adjectives \"perfect experience\" and explicitly states \"I’m totally satisfied,\" indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "مش عاجبني خالص ومش هشتري تاني.",
+    "sentiment": "Negative",
+    "reasoning": "The text expresses strong negative disapproval \"مش عاجبني خالص\" (I don't like it at all) and explicitly states an intention not to repurchase \"مش هشتري تاني\" (I will not buy again), indicating a highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "التجربة رائعة جدًا وأنصح بيها.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses a strong positive descriptor \"رائعة جدًا\" (very wonderful) and provides a clear positive recommendation \"أنصح بيها\" (I recommend it), indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "el app kan 7elw bas bycrash kteer.",
+    "sentiment": "Negative",
+    "reasoning": "While the app is initially described as \"el app kan 7elw\" (the app was good), the conjunction \"bas\" (but) introduces a critical and frequent negative issue: \"bycrash kteer\" (it crashes a lot). Frequent crashes severely impact usability and user satisfaction, outweighing the initial positive, leading to a negative sentiment.",
+    "reliability": 0.9
+  },
+  {
+    "text": "el makan zefet w el akl bard.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses strong negative colloquial terms: \"zefet\" (terrible) to describe the place and \"bard\" (cold) for the food, both indicating significant dissatisfaction.",
+    "reliability": 1.0
+  },
+  {
+    "text": "honestly it’s good but not the best option available.",
+    "sentiment": "Neutral",
+    "reasoning": "The text states \"it’s good,\" which is positive. However, the conjunction \"but\" introduces a comparative negative: \"not the best option available.\" This implies that while it's acceptable, there are better alternatives, leading to a neutral overall sentiment rather than a strong positive.",
+    "reliability": 0.8
+  },
+  {
+    "text": "الخدمة ممتازة وسريعة جدًا ومريحة.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses multiple strong positive adjectives: \"ممتازة\" (excellent), \"سريعة جدًا\" (very fast), and \"مريحة\" (comfortable) to describe the service, indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "وحش قوي ومضيعة للوقت والفلوس.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses a strong negative descriptor \"وحش قوي\" (very bad) and explicitly states it was \"مضيعة للوقت والفلوس\" (a waste of time and money), indicating a highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "أحببت التفاصيل الصغيرة في التصميم جدًا.",
+    "sentiment": "Positive",
+    "reasoning": "The text expresses strong positive appreciation for \"التفاصيل الصغيرة في التصميم جدًا\" (the small details in the design very much), indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "عادي ومفيش حاجة ملفتة.",
+    "sentiment": "Neutral",
+    "reasoning": "The text explicitly states \"عادي\" (ordinary) and \"مفيش حاجة ملفتة\" (nothing remarkable), which are direct indicators of a neutral sentiment, lacking both positive and negative distinction.",
+    "reliability": 1.0
+  },
+  {
+    "text": "beyond amazing and impressive.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses extremely strong positive adjectives \"beyond amazing\" and \"impressive,\" indicating a highly positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "سيء للغاية وغير احترافي.",
+    "sentiment": "Negative",
+    "reasoning": "The text uses two strong negative descriptors \"سيء للغاية\" (extremely bad) and \"غير احترافي\" (unprofessional), leaving no ambiguity about the highly negative sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "kind of satisfied but still confused.",
+    "sentiment": "Negative",
+    "reasoning": "While the text mentions \"kind of satisfied,\" which is a lukewarm positive, the conjunction \"but\" introduces a clear negative state: \"still confused.\" Confusion implies unresolved issues or a lack of clarity that detracts from a fully positive experience, making the overall sentiment negative.",
+    "reliability": 0.8
+  },
+  {
+    "text": "تجربة ممتعة ومريحة نفسيًا جدًا.",
+    "sentiment": "Positive",
+    "reasoning": "The text uses strong positive adjectives \"ممتعة\" (enjoyable) and \"مريحة نفسيًا جدًا\" (very psychologically comfortable) to describe the experience, indicating a clear positive sentiment.",
+    "reliability": 1.0
+  },
+  {
+    "text": "مش بطال بس كنت متوقع أفضل من كده.",
+    "sentiment": "Negative",
+    "reasoning": "The phrase \"مش بطال\" (not bad) suggests a neutral or mildly positive baseline. However, the conjunction \"بس\" (but) introduces a clear negative sentiment: \"كنت متوقع أفضل من كده\" (I expected better than that). This unfulfilled expectation and disappointment make the overall sentiment negative.",
+    "reliability": 0.8
+  }
+]
